@@ -1,6 +1,8 @@
 
 def evaluate(mass):
-    fuel = round(mass/3) 
+    #Part - 1
+    fuel = 0
+    fuel = int(mass/3) 
     if fuel > 0:
         fuel = fuel - 2
     return fuel
